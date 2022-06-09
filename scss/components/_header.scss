@@ -1,0 +1,37 @@
+
+$color-principal: darkred;
+$bg-principal: rgb(22, 21, 21);
+
+header{
+    div ul{
+        background-color: $bg-principal;
+        border-radius: 1.5rem;
+    }
+
+    ul li a{
+        font-size: 20px !important;
+
+        &:hover{
+            color: $color-principal !important;
+        }
+    }
+
+    a:hover{
+        color: $color-principal;
+    }
+
+    .img-nav{
+        width: 190px;
+        height: 190px;
+        margin-left: 0.5rem;
+        margin-top: 0.5rem;
+    }
+    
+    .mi-bg{
+        background-image: url('../../multimedia/imagenes/garaje2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 2rem;
+        height: 14rem;
+    }
+}

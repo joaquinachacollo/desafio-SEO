@@ -1,0 +1,60 @@
+
+$bg-principal: rgb(22, 21, 21);
+
+footer{
+    .info{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 40px;
+        color: #fff;
+        text-align: center;
+    }
+    
+    .footer-consulta{
+        display: flex;
+        text-align: start;
+        color: #fff;
+        font-size: 35px;
+    }
+    
+    footer{
+        background-color: $bg-principal;
+        height: 70vh;
+    }
+    
+    .formulario-flex{
+        display: flex ;
+        justify-content: space-evenly;
+    }
+    
+    iframe{
+        width: 550px; 
+        height: 410px; 
+        border:4px solid darkred;
+        margin-top: 35px;
+    }
+    
+    .ubicacion{
+        margin-top: 10px;
+    }
+    
+    .form{
+        display: flex;
+        border: 3px solid darkred;
+        margin-bottom: 10px;
+        width: 550px;
+        height: 55px;
+        font-size: 20px;
+    }
+    .consulta{
+        height: 80px;
+    }
+    
+    .enviar{
+        width: 550px;
+        height: 55px;
+        background-color: darkred;
+        color: #fff;
+        cursor: pointer;
+        font-size: 20px;
+    }
+}

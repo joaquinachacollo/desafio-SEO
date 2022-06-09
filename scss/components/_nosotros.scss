@@ -1,0 +1,59 @@
+
+$color: #fff;
+
+main{
+    .grid-container{
+        display: grid;
+        width: 96%;
+        height: 20rem;
+        gap: 8px;
+        margin-top: 8rem;
+        grid-template-areas: 
+        'grid-img grid-p';
+        
+    }
+    .grid-img{
+        grid-area: grid-img;
+        
+    }
+    
+    .grid-p{
+        grid-area: grid-p;
+        grid-column: 2/3;
+        display: flex;
+        align-items: center;
+    }
+
+    .fondo{
+        background: url('../../multimedia/imagenes/llaves.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 65vh;
+    }
+    
+    .img-nosotros{
+        width: 27rem;
+        height: auto;
+        border: 4px solid darkred;
+        margin-left: 20px;
+        transition: all 1s;
+    }
+    .img-nosotros:hover{
+        transform: scale(1.05);
+    }
+    
+    .nosotros{
+        font-size: 35px;
+        color: $color;
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        text-decoration: none;
+        
+    }
+    p{
+        font-size: 15px;
+        color: $color;
+        margin-left: 30px;
+    }
+}

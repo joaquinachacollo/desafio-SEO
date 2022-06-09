@@ -1,0 +1,379 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*header*/
+div ul{
+    background-color: rgb(22, 21, 21);
+    border-radius: 1.5rem;
+}
+header a:hover{
+    color: darkred !important;
+}
+ul li a{
+    font-size: 20px !important;
+}
+.img-nav{
+    width: 190px;
+    height: 190px;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+.mi-bg{
+    background-image: url("multimedia/imagenes/garaje2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 2rem;
+    height: 14rem;
+}
+
+/*fin header*/
+
+/*nosotros*/
+
+/* grid */
+.grid-container{
+    display: grid;
+    width: 96%;
+    height: 20rem;
+    gap: 8px;
+    margin-top: 8rem;
+    grid-template-areas: 
+    'grid-img grid-p';
+    
+}
+.grid-img{
+    grid-area: grid-img;
+    
+}
+
+.grid-p{
+    grid-area: grid-p;
+    grid-column: 2/3;
+    display: flex;
+    align-items: center;
+}
+
+/* fin grid */
+
+.fondo{
+    background-image: url("multimedia/imagenes/llaves.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65vh;
+}
+
+.img-nosotros{
+    width: 27rem;
+    height: auto;
+    border: 4px solid darkred;
+    margin-left: 20px;
+    transition: all 1s;
+}
+.img-nosotros:hover{
+    transform: scale(1.05);
+}
+
+.nosotros{
+    font-size: 35px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+p{
+    font-size: 15px;
+    color: #fff;
+    margin-left: 30px;
+}
+
+
+/*fin nosotros*/
+
+/*servicios*/
+.fondo-servicios{
+    background-image: url('multimedia/imagenes/fondo-servicios.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.servicios{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.img-uno, .img-dos{
+    border: 4px solid darkred;
+    height: auto;
+    width: 27rem;
+    transition: all 1s;
+    display: flex;
+    justify-content: center;
+}
+
+.transform:hover{
+    transform: scale(1.05);
+}
+
+.grid-servicios{
+    display: grid;
+    width: 90%;
+    max-width: 2500px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,auto);
+    margin: 25px auto;
+    gap: 20px;
+    grid-template-areas: "img-uno img-dos"
+                         "p-uno p-dos";
+}
+
+.img-uno{
+    grid-area: img-uno;
+}
+.img-dos{
+    grid-area: img-dos;
+}
+.p-uno{
+    grid-area: p-uno;
+    
+}
+.p-dos{
+    grid-area: p-dos;
+    
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    
+}
+video{
+    width: 60rem;
+    margin-bottom: 1rem;
+}
+
+
+/*fin servicios*/
+
+/*footer*/
+.info{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-consulta{
+    display: flex;
+    text-align: start;
+    color: #fff;
+    font-size: 35px;
+}
+
+footer{
+    background-color: rgb(26, 22, 22);
+    height: 70vh;
+}
+
+.formulario-flex{
+    display: flex ;
+    justify-content: space-evenly;
+}
+
+iframe{
+    width: 550px; 
+    height: 410px; 
+    border:4px solid darkred;
+    margin-top: 35px;
+}
+
+.ubicacion{
+    margin-top: 10px;
+}
+
+.form{
+    display: flex;
+    border: 3px solid darkred;
+    margin-bottom: 10px;
+    width: 550px;
+    height: 55px;
+    font-size: 20px;
+}
+.consulta{
+    height: 80px;
+}
+
+.enviar{
+    width: 550px;
+    height: 55px;
+    background-color: darkred;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+/*fin footer*/
+
+/* media */
+
+@media screen and (max-width: 992px) {
+    /* header */
+    .img-nav{
+        width: 150px;
+        height: 150px;
+        margin-top: 0.5rem;
+    }
+    
+    ul li a{
+        font-size: 12px !important;
+    }
+    
+    /* nosotros */
+    .img-nosotros{
+        width: 20rem;
+    }
+    
+    .nosotros{
+        font-size: 29px;
+    }
+
+    /* servicios */
+    p{
+        font-size: 12px;
+        margin-bottom: 90px;
+    }
+
+    .servicios{
+        font-size: 29px;
+    }
+
+    .img-uno, .img-dos{
+        width: 20rem;
+    }
+
+    .p-uno, .p-dos{
+        font-size: 12px;
+    }
+
+    video{
+        width: 48rem;
+        margin-bottom: 1rem;
+    }
+
+    /* footer */
+    iframe{
+        width: 300px; 
+        height: 310px;
+    }
+
+    .ubicacion{
+        margin-top: 4rem;
+    }
+
+    .container-form{
+        margin-top: 2rem;
+    }
+    .enviar{
+        width: 320px;
+        height: 55px;
+    }
+
+    .form{
+        width: 320px;
+        height: 55px;
+    }
+
+}
+
+@media screen and (max-width: 780px) {
+    /* header */
+    .img-nav{
+        width: 100px;
+        height: 100px;
+        margin-top: 0.5rem;
+    }
+    
+    ul li a{
+        font-size: 9px !important;
+    }
+
+    /* nosotros */
+    .img-nosotros{
+        display: none;
+    }
+    
+    /* servicios */
+    .grid-servicios{
+        height: 75rem;
+        grid-template-columns: 300px;
+        justify-content: center;
+        
+        text-align: center;
+        grid-template-areas: "img-uno"
+                             "p-uno"
+                             "img-dos"
+                             "p-dos";
+    }
+
+    .img-uno, .img-dos{
+        height: 15rem;
+        width: 17rem;
+        margin-top: 1rem;
+    }
+
+    video{
+        display: none;
+    }
+    .fondo-servicios{
+        height: 140vh;
+    }
+    .img-uno{
+        grid-area: img-uno;
+    }
+    .img-dos{
+        grid-area: img-dos;
+        
+    }
+    .p-uno{
+        grid-area: p-uno;
+        margin-right: 1.5rem;
+        margin-bottom: 0;
+        
+    }
+    .p-dos{
+        grid-area: p-dos;
+        margin-right: 1.5rem;
+        margin-bottom: 0;
+    }
+
+
+}
+
+@media screen and (max-width: 700px) {
+    /* footer */
+    .formulario-flex{
+        display: grid;
+        height: 50vh;
+    }
+
+    footer{
+        height: 105vh;
+    }
+
+    .ubicacion{
+        margin-left: 10px;
+    }
+    /* header */
+    .mi-bg{
+        padding-bottom: 15rem;
+    }
+}

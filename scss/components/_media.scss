@@ -1,0 +1,153 @@
+
+@media screen and (max-width: 992px) {
+    /* header */
+    .img-nav{
+        width: 150px;
+        height: 150px;
+        margin-top: 0.5rem;
+    }
+    
+    ul li a{
+        font-size: 12px !important;
+    }
+    
+    /* nosotros */
+    .img-nosotros{
+        width: 20rem;
+    }
+    
+    .nosotros{
+        font-size: 29px;
+    }
+
+    /* servicios */
+    p{
+        font-size: 12px;
+        margin-bottom: 90px;
+    }
+
+    .servicios{
+        font-size: 29px;
+    }
+
+    .img-uno, .img-dos{
+        width: 20rem;
+    }
+
+    .p-uno, .p-dos{
+        font-size: 12px;
+    }
+
+    video{
+        width: 48rem;
+        margin-bottom: 1rem;
+    }
+
+    /* footer */
+    iframe{
+        width: 300px; 
+        height: 310px;
+    }
+
+    .ubicacion{
+        margin-top: 4rem;
+    }
+
+    .container-form{
+        margin-top: 2rem;
+    }
+    .enviar{
+        width: 320px;
+        height: 55px;
+    }
+
+    .form{
+        width: 320px;
+        height: 55px;
+    }
+
+}
+
+@media screen and (max-width: 780px) {
+    /* header */
+    .img-nav{
+        width: 100px;
+        height: 100px;
+        margin-top: 0.5rem;
+    }
+    
+    ul li a{
+        font-size: 9px !important;
+    }
+
+    /* nosotros */
+    .img-nosotros{
+        display: none;
+    }
+    
+    /* servicios */
+    .grid-servicios{
+        height: 75rem;
+        grid-template-columns: 300px;
+        justify-content: center;
+        
+        text-align: center;
+        grid-template-areas: "img-uno"
+                             "p-uno"
+                             "img-dos"
+                             "p-dos";
+    }
+
+    .img-uno, .img-dos{
+        height: 15rem;
+        width: 17rem;
+        margin-top: 1rem;
+    }
+
+    video{
+        display: none;
+    }
+    .fondo-servicios{
+        height: 140vh;
+    }
+    .img-uno{
+        grid-area: img-uno;
+    }
+    .img-dos{
+        grid-area: img-dos;
+        
+    }
+    .p-uno{
+        grid-area: p-uno;
+        margin-right: 1.5rem;
+        margin-bottom: 0;
+        
+    }
+    .p-dos{
+        grid-area: p-dos;
+        margin-right: 1.5rem;
+        margin-bottom: 0;
+    }
+
+
+}
+
+@media screen and (max-width: 700px) {
+    /* footer */
+    .formulario-flex{
+        display: grid;
+        height: 50vh;
+    }
+
+    footer{
+        height: 105vh;
+    }
+
+    .ubicacion{
+        margin-left: 10px;
+    }
+    /* header */
+    .mi-bg{
+        padding-bottom: 15rem;
+    }
+}
