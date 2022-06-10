@@ -1,66 +1,71 @@
 
 
-article{
+
     .fondo-servicios{
         background-image: url('../../multimedia/imagenes/fondo-servicios.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
-    }
-    .servicios{
-        text-align: center;
-        font-weight: bold;
-        font-size: 35px;
-        color: #fff;
-        text-decoration: none;
-    }
-    
-    .img-uno, .img-dos{
-        border: 4px solid darkred;
-        height: auto;
-        width: 27rem;
-        transition: all 1s;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .transform:hover{
-        transform: scale(1.05);
-    }
-    
-    .grid-servicios{
-        display: grid;
-        width: 90%;
-        max-width: 2500px;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(2,auto);
-        margin: 25px auto;
-        gap: 20px;
-        grid-template-areas: "img-uno img-dos"
-                             "p-uno p-dos";
-    }
-    
-    .img-uno{
-        grid-area: img-uno;
-    }
-    .img-dos{
-        grid-area: img-dos;
-    }
-    .p-uno{
-        grid-area: p-uno;
+
+        .servicios{
+            text-align: center;
+            font-weight: bold;
+            font-size: 35px;
+            color: #fff;
+            text-decoration: none;
+        }
         
-    }
-    .p-dos{
-        grid-area: p-dos;
+        .img-uno, .img-dos{
+            border: 4px solid darkred;
+            height: auto;
+            width: 27rem;
+            transition: all 1s;
+            display: flex;
+            justify-content: center;
+        }
         
-    }
-    .flex{
-        display: flex;
-        justify-content: center;
+        .transform:hover{
+            transform: scale(1.05);
+        }
         
+        .grid-servicios{
+            display: grid;
+            width: 90%;
+            max-width: 2500px;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: repeat(2,auto);
+            margin: 25px auto;
+            gap: 20px;
+            grid-template-areas: "img-uno img-dos"
+                                 "p-uno p-dos";
+        }
+        
+        .img-uno{
+            grid-area: img-uno;
+        }
+        .img-dos{
+            grid-area: img-dos;
+        }
+        .p-uno{
+            grid-area: p-uno;
+            
+        }
+        .p-dos{
+            grid-area: p-dos;
+            
+        }
+        .flex{
+            display: flex;
+            justify-content: center;
+            
+        }
+        video{
+            width: 60rem;
+            margin-bottom: 1rem;
+        }
+        p{
+            color: #fff;
+        }
     }
-    video{
-        width: 60rem;
-        margin-bottom: 1rem;
-    }
-}
+    
+

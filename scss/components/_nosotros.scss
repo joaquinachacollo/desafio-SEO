@@ -1,7 +1,12 @@
 
 $color: #fff;
 
-main{
+.fondo{
+    background: url('../../multimedia/imagenes/llaves.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65vh;
+
     .grid-container{
         display: grid;
         width: 96%;
@@ -24,12 +29,6 @@ main{
         align-items: center;
     }
 
-    .fondo{
-        background: url('../../multimedia/imagenes/llaves.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 65vh;
-    }
     
     .img-nosotros{
         width: 27rem;
@@ -57,3 +56,5 @@ main{
         margin-left: 30px;
     }
 }
+
+    

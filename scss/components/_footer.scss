@@ -2,6 +2,9 @@
 $bg-principal: rgb(22, 21, 21);
 
 footer{
+    background-color: $bg-principal;
+    height: 70vh;
+
     .info{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 40px;
@@ -16,10 +19,7 @@ footer{
         font-size: 35px;
     }
     
-    footer{
-        background-color: $bg-principal;
-        height: 70vh;
-    }
+    
     
     .formulario-flex{
         display: flex ;
@@ -58,3 +58,4 @@ footer{
         font-size: 20px;
     }
 }
+    
