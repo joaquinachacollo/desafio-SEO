@@ -13,24 +13,23 @@ div ul{
     background-color: rgb(22, 21, 21);
     border-radius: 1.5rem;
 }
+
+ul li{
+    padding: 0rem 2rem;
+}
+
 header a:hover{
     color: darkred !important;
 }
-ul li a{
-    font-size: 20px !important;
-}
+
 .img-nav{
-    width: 190px;
-    height: 190px;
-    margin-left: 0.5rem;
-    margin-top: 0.5rem;
+    width: 170px;
+    height: 170px;
 }
 .mi-bg{
     background-image: url("multimedia/imagenes/garaje2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 2rem;
-    height: 14rem;
 }
 
 /*fin header*/
@@ -67,6 +66,7 @@ ul li a{
     background-repeat: no-repeat;
     background-size: cover;
     height: 65vh;
+    background-position: center center;
 }
 
 .img-nosotros{
@@ -104,6 +104,7 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    
 }
 .servicios{
     text-align: center;
@@ -225,7 +226,62 @@ iframe{
 
 /* media */
 
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    
+    /* nosotros */
+    .img-nosotros{
+        width: 22rem;
+    }
+    
+    .nosotros{
+        font-size: 30px;
+    }
+
+    /* servicios */
+    p{
+        font-size: 14px;
+        margin-bottom: 55px;
+    }
+
+    .servicios{
+        font-size: 30px;
+    }
+
+    .img-uno, .img-dos{
+        width: 22rem;
+    }
+
+    .p-uno, .p-dos{
+        font-size: 14px;
+    }
+
+    video{
+        width: 52rem;
+        margin-bottom: 1rem;
+    }
+    
+    
+    iframe{
+        width: 400px; 
+        height: 380px;
+    }
+
+    .enviar{
+        width: 400px;
+        height: 55px;
+    }
+
+    .form{
+        width: 400px;
+        height: 55px;
+    }
+
+}
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
     /* header */
     .img-nav{
         width: 150px;
@@ -233,8 +289,8 @@ iframe{
         margin-top: 0.5rem;
     }
     
-    ul li a{
-        font-size: 12px !important;
+    ul li{
+        padding: 0rem 1.7rem;
     }
     
     /* nosotros */
@@ -248,7 +304,7 @@ iframe{
 
     /* servicios */
     p{
-        font-size: 12px;
+        font-size: 13px;
         margin-bottom: 90px;
     }
 
@@ -261,11 +317,11 @@ iframe{
     }
 
     .p-uno, .p-dos{
-        font-size: 12px;
+        font-size: 13px;
     }
 
     video{
-        width: 48rem;
+        width: 45rem;
         margin-bottom: 1rem;
     }
 
@@ -294,24 +350,32 @@ iframe{
 
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (min-width: 370px) and (max-width: 767px) {
     /* header */
     .img-nav{
         width: 100px;
         height: 100px;
         margin-top: 0.5rem;
     }
-    
-    ul li a{
-        font-size: 9px !important;
-    }
 
     /* nosotros */
+
+    .nosotros{
+        font-size: 24px;
+        padding-top: 20px;
+    }
+
     .img-nosotros{
         display: none;
     }
     
     /* servicios */
+
+    .servicios{
+        font-size: 24px;
+        padding-top: 20px;
+    }
+
     .grid-servicios{
         height: 75rem;
         grid-template-columns: 300px;
@@ -325,9 +389,17 @@ iframe{
     }
 
     .img-uno, .img-dos{
-        height: 15rem;
-        width: 17rem;
+        height: 14rem;
+        width: 16rem;
         margin-top: 1rem;
+    }
+
+    p{
+        font-size: 15px;
+    }
+
+    .p-uno, .p-dos{
+        font-size: 15px;
     }
 
     video{
@@ -355,12 +427,8 @@ iframe{
         margin-bottom: 0;
     }
 
-
-}
-
-@media screen and (max-width: 700px) {
-    /* footer */
-    .formulario-flex{
+     /* footer */
+     .formulario-flex{
         display: grid;
         height: 50vh;
     }
@@ -368,12 +436,27 @@ iframe{
     footer{
         height: 105vh;
     }
-
-    .ubicacion{
-        margin-left: 10px;
+    
+    .container-form{
+        margin-top: 25px;
     }
-    /* header */
-    .mi-bg{
-        padding-bottom: 15rem;
+
+    .enviar{
+        width: 300px;
+        height: 55px;
+    }
+
+    .form{
+        width: 300px;
+        height: 55px;
+    }
+
+    iframe{
+        width: 300px; 
+        height: 310px;
     }
 }
+
+
+   
+

@@ -16,39 +16,37 @@ header div ul {
   background-color: rgb(22, 21, 21);
   border-radius: 1.5rem;
 }
-header ul li a {
-  font-size: 20px !important;
-}
-header ul li a:hover {
-  color: darkred !important;
+header ul li {
+  padding: 0rem 2rem;
 }
 header a:hover {
-  color: darkred;
+  color: darkred !important;
 }
 header .img-nav {
-  width: 190px;
-  height: 190px;
-  margin-left: 0.5rem;
-  margin-top: 0.5rem;
+  width: 170px;
+  height: 170px;
 }
 header .mi-bg {
   background-image: url("../../multimedia/imagenes/garaje2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 2rem;
-  height: 14rem;
 }
 
 .fondo {
-  background: url("../../multimedia/imagenes/llaves.jpg");
+  background-image: url("../../multimedia/imagenes/llaves.jpg");
+  height: 65vh;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 65vh;
+  background-position: 0;
 }
 .fondo .grid-container {
   display: grid;
   width: 96%;
   height: 20rem;
+  border: 0;
+  justify-content: 0;
+  font-weight: 0;
+  text-decoration: 0;
   gap: 8px;
   margin-top: 8rem;
   grid-template-areas: "grid-img grid-p";
@@ -63,9 +61,13 @@ header .mi-bg {
   align-items: center;
 }
 .fondo .img-nosotros {
+  display: 0;
   width: 27rem;
   height: auto;
   border: 4px solid darkred;
+  justify-content: 0;
+  font-weight: 0;
+  text-decoration: 0;
   margin-left: 20px;
   transition: all 1s;
 }
@@ -100,12 +102,14 @@ header .mi-bg {
   text-decoration: none;
 }
 .fondo-servicios .img-uno, .fondo-servicios .img-dos {
-  border: 4px solid darkred;
-  height: auto;
-  width: 27rem;
-  transition: all 1s;
   display: flex;
+  width: 27rem;
+  height: auto;
+  border: 4px solid darkred;
   justify-content: center;
+  font-weight: 0;
+  text-decoration: 0;
+  transition: all 1s;
 }
 .fondo-servicios .transform:hover {
   transform: scale(1.05);
@@ -113,7 +117,6 @@ header .mi-bg {
 .fondo-servicios .grid-servicios {
   display: grid;
   width: 90%;
-  max-width: 2500px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, auto);
   margin: 25px auto;
@@ -149,58 +152,104 @@ footer {
   height: 70vh;
 }
 footer .info {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-size: 40px;
   color: #fff;
   text-align: center;
 }
 footer .footer-consulta {
-  display: flex;
-  text-align: start;
-  color: #fff;
   font-size: 35px;
+  text-align: start;
+  display: flex;
+  color: #fff;
 }
 footer .formulario-flex {
   display: flex;
   justify-content: space-evenly;
 }
 footer iframe {
+  font-size: 0;
+  border: 4px solid darkred;
   width: 550px;
   height: 410px;
-  border: 4px solid darkred;
+  display: 0;
+  color: 0;
+  justify-content: 0;
   margin-top: 35px;
 }
 footer .ubicacion {
   margin-top: 10px;
 }
 footer .form {
-  display: flex;
-  border: 3px solid darkred;
   margin-bottom: 10px;
+  font-size: 20px;
+  border: 3px solid darkred;
   width: 550px;
   height: 55px;
-  font-size: 20px;
+  display: flex;
+  color: 0;
+  justify-content: 0;
 }
 footer .consulta {
   height: 80px;
 }
 footer .enviar {
-  width: 550px;
-  height: 55px;
   background-color: darkred;
-  color: #fff;
   cursor: pointer;
   font-size: 20px;
+  border: 0;
+  width: 550px;
+  height: 55px;
+  display: 0;
+  color: darkred;
+  justify-content: 0;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  header .img-nosotros, footer .img-nosotros, .fondo .img-nosotros, .fondo-servicios .img-nosotros {
+    width: 22rem;
+  }
+  header .nosotros, footer .nosotros, .fondo .nosotros, .fondo-servicios .nosotros {
+    font-size: 30px;
+  }
+  header p, footer p, .fondo p, .fondo-servicios p {
+    font-size: 14px;
+    margin-bottom: 55px;
+  }
+  header .servicios, footer .servicios, .fondo .servicios, .fondo-servicios .servicios {
+    font-size: 30px;
+  }
+  header .img-uno, header .img-dos, footer .img-uno, footer .img-dos, .fondo .img-uno, .fondo .img-dos, .fondo-servicios .img-uno, .fondo-servicios .img-dos {
+    width: 22rem;
+  }
+  header .p-uno, header .p-dos, footer .p-uno, footer .p-dos, .fondo .p-uno, .fondo .p-dos, .fondo-servicios .p-uno, .fondo-servicios .p-dos {
+    font-size: 14px;
+  }
+  header video, footer video, .fondo video, .fondo-servicios video {
+    width: 52rem;
+    margin-bottom: 1rem;
+  }
+  header iframe, footer iframe, .fondo iframe, .fondo-servicios iframe {
+    width: 400px;
+    height: 380px;
+  }
+  header .enviar, footer .enviar, .fondo .enviar, .fondo-servicios .enviar {
+    width: 400px;
+    height: 55px;
+  }
+  header .form, footer .form, .fondo .form, .fondo-servicios .form {
+    width: 400px;
+    height: 55px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
   header .img-nav, footer .img-nav, .fondo .img-nav, .fondo-servicios .img-nav {
     width: 150px;
     height: 150px;
     margin-top: 0.5rem;
   }
-  header ul li a, footer ul li a, .fondo ul li a, .fondo-servicios ul li a {
-    font-size: 12px !important;
+  header ul li, footer ul li, .fondo ul li, .fondo-servicios ul li {
+    padding: 0rem 1.7rem;
   }
   header .img-nosotros, footer .img-nosotros, .fondo .img-nosotros, .fondo-servicios .img-nosotros {
     width: 20rem;
@@ -209,7 +258,7 @@ footer .enviar {
     font-size: 29px;
   }
   header p, footer p, .fondo p, .fondo-servicios p {
-    font-size: 12px;
+    font-size: 13px;
     margin-bottom: 90px;
   }
   header .servicios, footer .servicios, .fondo .servicios, .fondo-servicios .servicios {
@@ -219,10 +268,10 @@ footer .enviar {
     width: 20rem;
   }
   header .p-uno, header .p-dos, footer .p-uno, footer .p-dos, .fondo .p-uno, .fondo .p-dos, .fondo-servicios .p-uno, .fondo-servicios .p-dos {
-    font-size: 12px;
+    font-size: 13px;
   }
   header video, footer video, .fondo video, .fondo-servicios video {
-    width: 48rem;
+    width: 45rem;
     margin-bottom: 1rem;
   }
   header iframe, footer iframe, .fondo iframe, .fondo-servicios iframe {
@@ -245,17 +294,22 @@ footer .enviar {
   }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (min-width: 370px) and (max-width: 767px) {
   header .img-nav, footer .img-nav, .fondo .img-nav, .fondo-servicios .img-nav {
     width: 100px;
     height: 100px;
     margin-top: 0.5rem;
   }
-  header ul li a, footer ul li a, .fondo ul li a, .fondo-servicios ul li a {
-    font-size: 9px !important;
+  header .nosotros, footer .nosotros, .fondo .nosotros, .fondo-servicios .nosotros {
+    font-size: 24px;
+    padding-top: 20px;
   }
   header .img-nosotros, footer .img-nosotros, .fondo .img-nosotros, .fondo-servicios .img-nosotros {
     display: none;
+  }
+  header .servicios, footer .servicios, .fondo .servicios, .fondo-servicios .servicios {
+    font-size: 24px;
+    padding-top: 20px;
   }
   header .grid-servicios, footer .grid-servicios, .fondo .grid-servicios, .fondo-servicios .grid-servicios {
     height: 75rem;
@@ -265,9 +319,16 @@ footer .enviar {
     grid-template-areas: "img-uno" "p-uno" "img-dos" "p-dos";
   }
   header .img-uno, header .img-dos, footer .img-uno, footer .img-dos, .fondo .img-uno, .fondo .img-dos, .fondo-servicios .img-uno, .fondo-servicios .img-dos {
-    height: 15rem;
-    width: 17rem;
+    height: 14rem;
+    width: 16rem;
     margin-top: 1rem;
+  }
+  header p, footer p, .fondo p, .fondo-servicios p {
+    font-size: 15px;
+  }
+  header .p-uno, header .p-dos, footer .p-uno, footer .p-dos, .fondo .p-uno, .fondo .p-dos, .fondo-servicios .p-uno, .fondo-servicios .p-dos {
+    font-size: 15px;
+    margin-left: 14px;
   }
   header video, footer video, .fondo video, .fondo-servicios video {
     display: none;
@@ -291,9 +352,6 @@ footer .enviar {
     margin-right: 1.5rem;
     margin-bottom: 0;
   }
-}
-
-@media screen and (max-width: 700px) {
   header .formulario-flex, footer .formulario-flex, .fondo .formulario-flex, .fondo-servicios .formulario-flex {
     display: grid;
     height: 50vh;
@@ -301,11 +359,20 @@ footer .enviar {
   header footer, footer footer, .fondo footer, .fondo-servicios footer {
     height: 105vh;
   }
-  header .ubicacion, footer .ubicacion, .fondo .ubicacion, .fondo-servicios .ubicacion {
-    margin-left: 10px;
+  header .container-form, footer .container-form, .fondo .container-form, .fondo-servicios .container-form {
+    margin-top: 25px;
   }
-  header .mi-bg, footer .mi-bg, .fondo .mi-bg, .fondo-servicios .mi-bg {
-    padding-bottom: 15rem;
+  header .enviar, footer .enviar, .fondo .enviar, .fondo-servicios .enviar {
+    width: 300px;
+    height: 55px;
+  }
+  header .form, footer .form, .fondo .form, .fondo-servicios .form {
+    width: 300px;
+    height: 55px;
+  }
+  header iframe, footer iframe, .fondo iframe, .fondo-servicios iframe {
+    width: 300px;
+    height: 310px;
   }
 }
 

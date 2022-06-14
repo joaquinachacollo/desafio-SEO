@@ -1,25 +1,20 @@
 
-$bg-principal: rgb(22, 21, 21);
+@import "../base/variables";
+@import "../base/mixins";
 
 footer{
     background-color: $bg-principal;
     height: 70vh;
 
     .info{
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 40px;
-        color: #fff;
+        color: $color-secundario;
         text-align: center;
     }
     
     .footer-consulta{
-        display: flex;
-        text-align: start;
-        color: #fff;
-        font-size: 35px;
+        @include footer(35px, start, flex, $color-secundario);
     }
-    
-    
     
     .formulario-flex{
         display: flex ;
@@ -27,9 +22,7 @@ footer{
     }
     
     iframe{
-        width: 550px; 
-        height: 410px; 
-        border:4px solid darkred;
+        @include footer-info(0,4px solid $color-principal,550px,410px,0,0,0);
         margin-top: 35px;
     }
     
@@ -38,24 +31,17 @@ footer{
     }
     
     .form{
-        display: flex;
-        border: 3px solid darkred;
         margin-bottom: 10px;
-        width: 550px;
-        height: 55px;
-        font-size: 20px;
+        @include footer-info(20px, 3px solid $color-principal, 550px, 55px, flex,0,0);
     }
     .consulta{
         height: 80px;
     }
     
     .enviar{
-        width: 550px;
-        height: 55px;
-        background-color: darkred;
-        color: #fff;
+        background-color: $color-principal;
         cursor: pointer;
-        font-size: 20px;
+        @include footer-info(20px,0,550px,55px,0,$color-principal,0);
     }
 }
     

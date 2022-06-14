@@ -1,27 +1,22 @@
 
-
+    @import "../base/variables";
+    @import "../base/mixins";
 
     .fondo-servicios{
         background-image: url('../../multimedia/imagenes/fondo-servicios.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
+        @include fond(no-repeat, cover, center center);
 
         .servicios{
             text-align: center;
             font-weight: bold;
             font-size: 35px;
-            color: #fff;
+            color: $color-secundario;
             text-decoration: none;
         }
         
         .img-uno, .img-dos{
-            border: 4px solid darkred;
-            height: auto;
-            width: 27rem;
+            @include main(flex, 27rem, auto, 4px solid $color-principal, center,0,0);
             transition: all 1s;
-            display: flex;
-            justify-content: center;
         }
         
         .transform:hover{
@@ -31,7 +26,6 @@
         .grid-servicios{
             display: grid;
             width: 90%;
-            max-width: 2500px;
             grid-template-columns: repeat(2,1fr);
             grid-template-rows: repeat(2,auto);
             margin: 25px auto;
@@ -64,7 +58,7 @@
             margin-bottom: 1rem;
         }
         p{
-            color: #fff;
+            color: $color-secundario;
         }
     }
     

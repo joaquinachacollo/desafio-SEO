@@ -1,0 +1,33 @@
+
+@mixin fond ( $repeat, $size, $position) {
+    background-repeat: $repeat;
+    background-size: $size;
+    background-position: $position;
+}
+
+@mixin main ($display, $width, $height, $border, $justify, $font, $text) {
+    display: $display;
+    width: $width;
+    height: $height;
+    border: $border;
+    justify-content: $justify;
+    font-weight: $font;
+    text-decoration: $text;
+} 
+
+@mixin footer ($size, $align, $display,$color) {
+    font-size: $size;
+    text-align: $align;
+    display: $display;
+    color: $color;
+}
+
+@mixin footer-info ($size, $border, $width, $height, $display, $color, $justify) {
+    font-size: $size;
+    border: $border;
+    width: $width;
+    height: $height;
+    display: $display;
+    color: $color;
+    justify-content: $justify;
+}
