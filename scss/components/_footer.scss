@@ -41,7 +41,7 @@ footer{
     .enviar{
         background-color: $color-principal;
         cursor: pointer;
-        @include footer-info(20px,0,550px,55px,0,$color-principal,0);
+        @include footer-info(20px, 0, 550px, 55px, 0px, $color-secundario, 0)
     }
 }
     

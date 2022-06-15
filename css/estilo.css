@@ -199,8 +199,8 @@ footer .enviar {
   border: 0;
   width: 550px;
   height: 55px;
-  display: 0;
-  color: darkred;
+  display: 0px;
+  color: #fff;
   justify-content: 0;
 }
 
@@ -294,7 +294,7 @@ footer .enviar {
   }
 }
 
-@media screen and (min-width: 370px) and (max-width: 767px) {
+@media screen and (min-width: 360px) and (max-width: 767px) {
   header .img-nav, footer .img-nav, .fondo .img-nav, .fondo-servicios .img-nav {
     width: 100px;
     height: 100px;
