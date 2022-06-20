@@ -1,5 +1,5 @@
 
-header, footer, .fondo, .fondo-servicios {
+header, footer, .fondo, .imagenes, .fondo-servicios, .copy {
     @media screen and (min-width: 993px) and (max-width: 1200px) {
     
         
@@ -49,13 +49,30 @@ header, footer, .fondo, .fondo-servicios {
             width: 400px;
             height: 55px;
         }
+
+        .altura{
+            height: auto !important;
+        }
+
+        .copyright{
+            margin-top: 26px;
+            height: 7vh;
+        }
+        .copyright p{
+            margin: auto;
+        }
+        
     
     }
 }
 
-header, footer, .fondo, .fondo-servicios{
+header, footer, .fondo, .imagenes, .fondo-servicios, .copy{
     @media screen and (min-width: 768px) and (max-width: 992px) {
         
+        .altura{
+            height: auto !important;
+        }
+
         .img-nav{
             width: 150px;
             height: 150px;
@@ -121,31 +138,62 @@ header, footer, .fondo, .fondo-servicios{
             height: 55px;
         }
     
+        .copyright{
+            margin-top: 26px;
+            height: 7vh;
+        }
+        .copyright p{
+            margin: auto;
+        }
     }
 }
 
-header, footer, .fondo, .fondo-servicios{
+header, footer, main,.fondo, .imagenes, .fondo-servicios, .copy{
     @media screen and (min-width: 360px) and (max-width: 767px) {
-        
+    
+        .copyright{
+            margin-top: 15rem;
+            height: 7vh;
+        }
+        .copyright p{
+            margin: auto;
+        }
+
+        .altura{
+            height: auto !important;
+        }
+
         .img-nav{
             width: 100px;
             height: 100px;
             margin-top: 0.5rem;
         }
     
-        
+        .info{
+            font-size: 30px;
+        }
     
         .nosotros{
             font-size: 24px;
-            padding-top: 20px;
+            padding-top: 2px;
         }
     
         .img-nosotros{
             display: none;
         }
         
-        
+        .grid-container{
+            margin-top: 1.5rem;
+        }
+
+        .grid-p{
+            font-size: 14px;
+        }
     
+        .fondo{
+            height: auto;
+        }
+
         .servicios{
             font-size: 24px;
             padding-top: 20px;
@@ -169,12 +217,9 @@ header, footer, .fondo, .fondo-servicios{
             margin-top: 1rem;
         }
     
-        p{
-            font-size: 15px;
-        }
     
         .p-uno, .p-dos{
-            font-size: 15px;
+            font-size: 14px;
             margin-left: 14px;
         }
     
@@ -204,13 +249,17 @@ header, footer, .fondo, .fondo-servicios{
         }
     
          
-         .formulario-flex{
+        .formulario-flex{
             display: grid;
             height: 50vh;
         }
     
+        .footer-consulta{
+            font-size: 24px;
+        }
+
         footer{
-            height: 105vh;
+            height: 125vh;
         }
         
         .container-form{

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0px;
   padding: 0px;
@@ -10,6 +11,10 @@ html {
 body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   background-color: rgb(22, 21, 21);
+}
+
+.altura {
+  height: 80vh !important;
 }
 
 header div ul {
@@ -27,13 +32,14 @@ header .img-nav {
   height: 170px;
 }
 header .mi-bg {
-  background-image: url("../../multimedia/imagenes/garaje2.jpg");
+  background-image: url("../../multimedia/imagenes/pieza-mecánica.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
 }
 
 .fondo {
-  background-image: url("../../multimedia/imagenes/llaves.jpg");
+  background-image: url("../../multimedia/imagenes/negro.jpg");
   height: 65vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -47,7 +53,6 @@ header .mi-bg {
   justify-content: 0;
   font-weight: 0;
   text-decoration: 0;
-  gap: 8px;
   margin-top: 8rem;
   grid-template-areas: "grid-img grid-p";
 }
@@ -56,7 +61,6 @@ header .mi-bg {
 }
 .fondo .grid-p {
   grid-area: grid-p;
-  grid-column: 2/3;
   display: flex;
   align-items: center;
 }
@@ -83,7 +87,7 @@ header .mi-bg {
   text-decoration: none;
 }
 .fondo p {
-  font-size: 15px;
+  font-size: 20px;
   color: #fff;
   margin-left: 30px;
 }
@@ -205,175 +209,241 @@ footer .enviar {
 }
 
 @media screen and (min-width: 993px) and (max-width: 1200px) {
-  header .img-nosotros, footer .img-nosotros, .fondo .img-nosotros, .fondo-servicios .img-nosotros {
+  header .img-nosotros, footer .img-nosotros, .fondo .img-nosotros, .imagenes .img-nosotros, .fondo-servicios .img-nosotros, .copy .img-nosotros {
     width: 22rem;
   }
-  header .nosotros, footer .nosotros, .fondo .nosotros, .fondo-servicios .nosotros {
+  header .nosotros, footer .nosotros, .fondo .nosotros, .imagenes .nosotros, .fondo-servicios .nosotros, .copy .nosotros {
     font-size: 30px;
   }
-  header p, footer p, .fondo p, .fondo-servicios p {
+  header p, footer p, .fondo p, .imagenes p, .fondo-servicios p, .copy p {
     font-size: 14px;
     margin-bottom: 55px;
   }
-  header .servicios, footer .servicios, .fondo .servicios, .fondo-servicios .servicios {
+  header .servicios, footer .servicios, .fondo .servicios, .imagenes .servicios, .fondo-servicios .servicios, .copy .servicios {
     font-size: 30px;
   }
-  header .img-uno, header .img-dos, footer .img-uno, footer .img-dos, .fondo .img-uno, .fondo .img-dos, .fondo-servicios .img-uno, .fondo-servicios .img-dos {
+  header .img-uno, header .img-dos, footer .img-uno, footer .img-dos, .fondo .img-uno, .fondo .img-dos, .imagenes .img-uno, .imagenes .img-dos, .fondo-servicios .img-uno, .fondo-servicios .img-dos, .copy .img-uno, .copy .img-dos {
     width: 22rem;
   }
-  header .p-uno, header .p-dos, footer .p-uno, footer .p-dos, .fondo .p-uno, .fondo .p-dos, .fondo-servicios .p-uno, .fondo-servicios .p-dos {
+  header .p-uno, header .p-dos, footer .p-uno, footer .p-dos, .fondo .p-uno, .fondo .p-dos, .imagenes .p-uno, .imagenes .p-dos, .fondo-servicios .p-uno, .fondo-servicios .p-dos, .copy .p-uno, .copy .p-dos {
     font-size: 14px;
   }
-  header video, footer video, .fondo video, .fondo-servicios video {
+  header video, footer video, .fondo video, .imagenes video, .fondo-servicios video, .copy video {
     width: 52rem;
     margin-bottom: 1rem;
   }
-  header iframe, footer iframe, .fondo iframe, .fondo-servicios iframe {
+  header iframe, footer iframe, .fondo iframe, .imagenes iframe, .fondo-servicios iframe, .copy iframe {
     width: 400px;
     height: 380px;
   }
-  header .enviar, footer .enviar, .fondo .enviar, .fondo-servicios .enviar {
+  header .enviar, footer .enviar, .fondo .enviar, .imagenes .enviar, .fondo-servicios .enviar, .copy .enviar {
     width: 400px;
     height: 55px;
   }
-  header .form, footer .form, .fondo .form, .fondo-servicios .form {
+  header .form, footer .form, .fondo .form, .imagenes .form, .fondo-servicios .form, .copy .form {
     width: 400px;
     height: 55px;
+  }
+  header .altura, footer .altura, .fondo .altura, .imagenes .altura, .fondo-servicios .altura, .copy .altura {
+    height: auto !important;
+  }
+  header .copyright, footer .copyright, .fondo .copyright, .imagenes .copyright, .fondo-servicios .copyright, .copy .copyright {
+    margin-top: 26px;
+    height: 7vh;
+  }
+  header .copyright p, footer .copyright p, .fondo .copyright p, .imagenes .copyright p, .fondo-servicios .copyright p, .copy .copyright p {
+    margin: auto;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-  header .img-nav, footer .img-nav, .fondo .img-nav, .fondo-servicios .img-nav {
+  header .altura, footer .altura, .fondo .altura, .imagenes .altura, .fondo-servicios .altura, .copy .altura {
+    height: auto !important;
+  }
+  header .img-nav, footer .img-nav, .fondo .img-nav, .imagenes .img-nav, .fondo-servicios .img-nav, .copy .img-nav {
     width: 150px;
     height: 150px;
     margin-top: 0.5rem;
   }
-  header ul li, footer ul li, .fondo ul li, .fondo-servicios ul li {
+  header ul li, footer ul li, .fondo ul li, .imagenes ul li, .fondo-servicios ul li, .copy ul li {
     padding: 0rem 1.7rem;
   }
-  header .img-nosotros, footer .img-nosotros, .fondo .img-nosotros, .fondo-servicios .img-nosotros {
+  header .img-nosotros, footer .img-nosotros, .fondo .img-nosotros, .imagenes .img-nosotros, .fondo-servicios .img-nosotros, .copy .img-nosotros {
     width: 20rem;
   }
-  header .nosotros, footer .nosotros, .fondo .nosotros, .fondo-servicios .nosotros {
+  header .nosotros, footer .nosotros, .fondo .nosotros, .imagenes .nosotros, .fondo-servicios .nosotros, .copy .nosotros {
     font-size: 29px;
   }
-  header p, footer p, .fondo p, .fondo-servicios p {
+  header p, footer p, .fondo p, .imagenes p, .fondo-servicios p, .copy p {
     font-size: 13px;
     margin-bottom: 90px;
   }
-  header .servicios, footer .servicios, .fondo .servicios, .fondo-servicios .servicios {
+  header .servicios, footer .servicios, .fondo .servicios, .imagenes .servicios, .fondo-servicios .servicios, .copy .servicios {
     font-size: 29px;
   }
-  header .img-uno, header .img-dos, footer .img-uno, footer .img-dos, .fondo .img-uno, .fondo .img-dos, .fondo-servicios .img-uno, .fondo-servicios .img-dos {
+  header .img-uno, header .img-dos, footer .img-uno, footer .img-dos, .fondo .img-uno, .fondo .img-dos, .imagenes .img-uno, .imagenes .img-dos, .fondo-servicios .img-uno, .fondo-servicios .img-dos, .copy .img-uno, .copy .img-dos {
     width: 20rem;
   }
-  header .p-uno, header .p-dos, footer .p-uno, footer .p-dos, .fondo .p-uno, .fondo .p-dos, .fondo-servicios .p-uno, .fondo-servicios .p-dos {
+  header .p-uno, header .p-dos, footer .p-uno, footer .p-dos, .fondo .p-uno, .fondo .p-dos, .imagenes .p-uno, .imagenes .p-dos, .fondo-servicios .p-uno, .fondo-servicios .p-dos, .copy .p-uno, .copy .p-dos {
     font-size: 13px;
   }
-  header video, footer video, .fondo video, .fondo-servicios video {
+  header video, footer video, .fondo video, .imagenes video, .fondo-servicios video, .copy video {
     width: 45rem;
     margin-bottom: 1rem;
   }
-  header iframe, footer iframe, .fondo iframe, .fondo-servicios iframe {
+  header iframe, footer iframe, .fondo iframe, .imagenes iframe, .fondo-servicios iframe, .copy iframe {
     width: 300px;
     height: 310px;
   }
-  header .ubicacion, footer .ubicacion, .fondo .ubicacion, .fondo-servicios .ubicacion {
+  header .ubicacion, footer .ubicacion, .fondo .ubicacion, .imagenes .ubicacion, .fondo-servicios .ubicacion, .copy .ubicacion {
     margin-top: 4rem;
   }
-  header .container-form, footer .container-form, .fondo .container-form, .fondo-servicios .container-form {
+  header .container-form, footer .container-form, .fondo .container-form, .imagenes .container-form, .fondo-servicios .container-form, .copy .container-form {
     margin-top: 2rem;
   }
-  header .enviar, footer .enviar, .fondo .enviar, .fondo-servicios .enviar {
+  header .enviar, footer .enviar, .fondo .enviar, .imagenes .enviar, .fondo-servicios .enviar, .copy .enviar {
     width: 320px;
     height: 55px;
   }
-  header .form, footer .form, .fondo .form, .fondo-servicios .form {
+  header .form, footer .form, .fondo .form, .imagenes .form, .fondo-servicios .form, .copy .form {
     width: 320px;
     height: 55px;
+  }
+  header .copyright, footer .copyright, .fondo .copyright, .imagenes .copyright, .fondo-servicios .copyright, .copy .copyright {
+    margin-top: 26px;
+    height: 7vh;
+  }
+  header .copyright p, footer .copyright p, .fondo .copyright p, .imagenes .copyright p, .fondo-servicios .copyright p, .copy .copyright p {
+    margin: auto;
   }
 }
 
 @media screen and (min-width: 360px) and (max-width: 767px) {
-  header .img-nav, footer .img-nav, .fondo .img-nav, .fondo-servicios .img-nav {
+  header .copyright, footer .copyright, main .copyright, .fondo .copyright, .imagenes .copyright, .fondo-servicios .copyright, .copy .copyright {
+    margin-top: 15rem;
+    height: 7vh;
+  }
+  header .copyright p, footer .copyright p, main .copyright p, .fondo .copyright p, .imagenes .copyright p, .fondo-servicios .copyright p, .copy .copyright p {
+    margin: auto;
+  }
+  header .altura, footer .altura, main .altura, .fondo .altura, .imagenes .altura, .fondo-servicios .altura, .copy .altura {
+    height: auto !important;
+  }
+  header .img-nav, footer .img-nav, main .img-nav, .fondo .img-nav, .imagenes .img-nav, .fondo-servicios .img-nav, .copy .img-nav {
     width: 100px;
     height: 100px;
     margin-top: 0.5rem;
   }
-  header .nosotros, footer .nosotros, .fondo .nosotros, .fondo-servicios .nosotros {
-    font-size: 24px;
-    padding-top: 20px;
+  header .info, footer .info, main .info, .fondo .info, .imagenes .info, .fondo-servicios .info, .copy .info {
+    font-size: 30px;
   }
-  header .img-nosotros, footer .img-nosotros, .fondo .img-nosotros, .fondo-servicios .img-nosotros {
+  header .nosotros, footer .nosotros, main .nosotros, .fondo .nosotros, .imagenes .nosotros, .fondo-servicios .nosotros, .copy .nosotros {
+    font-size: 24px;
+    padding-top: 2px;
+  }
+  header .img-nosotros, footer .img-nosotros, main .img-nosotros, .fondo .img-nosotros, .imagenes .img-nosotros, .fondo-servicios .img-nosotros, .copy .img-nosotros {
     display: none;
   }
-  header .servicios, footer .servicios, .fondo .servicios, .fondo-servicios .servicios {
+  header .grid-container, footer .grid-container, main .grid-container, .fondo .grid-container, .imagenes .grid-container, .fondo-servicios .grid-container, .copy .grid-container {
+    margin-top: 1.5rem;
+  }
+  header .grid-p, footer .grid-p, main .grid-p, .fondo .grid-p, .imagenes .grid-p, .fondo-servicios .grid-p, .copy .grid-p {
+    font-size: 14px;
+  }
+  header .fondo, footer .fondo, main .fondo, .fondo .fondo, .imagenes .fondo, .fondo-servicios .fondo, .copy .fondo {
+    height: auto;
+  }
+  header .servicios, footer .servicios, main .servicios, .fondo .servicios, .imagenes .servicios, .fondo-servicios .servicios, .copy .servicios {
     font-size: 24px;
     padding-top: 20px;
   }
-  header .grid-servicios, footer .grid-servicios, .fondo .grid-servicios, .fondo-servicios .grid-servicios {
+  header .grid-servicios, footer .grid-servicios, main .grid-servicios, .fondo .grid-servicios, .imagenes .grid-servicios, .fondo-servicios .grid-servicios, .copy .grid-servicios {
     height: 75rem;
     grid-template-columns: 300px;
     justify-content: center;
     text-align: center;
     grid-template-areas: "img-uno" "p-uno" "img-dos" "p-dos";
   }
-  header .img-uno, header .img-dos, footer .img-uno, footer .img-dos, .fondo .img-uno, .fondo .img-dos, .fondo-servicios .img-uno, .fondo-servicios .img-dos {
+  header .img-uno, header .img-dos, footer .img-uno, footer .img-dos, main .img-uno, main .img-dos, .fondo .img-uno, .fondo .img-dos, .imagenes .img-uno, .imagenes .img-dos, .fondo-servicios .img-uno, .fondo-servicios .img-dos, .copy .img-uno, .copy .img-dos {
     height: 14rem;
     width: 16rem;
     margin-top: 1rem;
   }
-  header p, footer p, .fondo p, .fondo-servicios p {
-    font-size: 15px;
-  }
-  header .p-uno, header .p-dos, footer .p-uno, footer .p-dos, .fondo .p-uno, .fondo .p-dos, .fondo-servicios .p-uno, .fondo-servicios .p-dos {
-    font-size: 15px;
+  header .p-uno, header .p-dos, footer .p-uno, footer .p-dos, main .p-uno, main .p-dos, .fondo .p-uno, .fondo .p-dos, .imagenes .p-uno, .imagenes .p-dos, .fondo-servicios .p-uno, .fondo-servicios .p-dos, .copy .p-uno, .copy .p-dos {
+    font-size: 14px;
     margin-left: 14px;
   }
-  header video, footer video, .fondo video, .fondo-servicios video {
+  header video, footer video, main video, .fondo video, .imagenes video, .fondo-servicios video, .copy video {
     display: none;
   }
-  header .fondo-servicios, footer .fondo-servicios, .fondo .fondo-servicios, .fondo-servicios .fondo-servicios {
+  header .fondo-servicios, footer .fondo-servicios, main .fondo-servicios, .fondo .fondo-servicios, .imagenes .fondo-servicios, .fondo-servicios .fondo-servicios, .copy .fondo-servicios {
     height: 140vh;
   }
-  header .img-uno, footer .img-uno, .fondo .img-uno, .fondo-servicios .img-uno {
+  header .img-uno, footer .img-uno, main .img-uno, .fondo .img-uno, .imagenes .img-uno, .fondo-servicios .img-uno, .copy .img-uno {
     grid-area: img-uno;
   }
-  header .img-dos, footer .img-dos, .fondo .img-dos, .fondo-servicios .img-dos {
+  header .img-dos, footer .img-dos, main .img-dos, .fondo .img-dos, .imagenes .img-dos, .fondo-servicios .img-dos, .copy .img-dos {
     grid-area: img-dos;
   }
-  header .p-uno, footer .p-uno, .fondo .p-uno, .fondo-servicios .p-uno {
+  header .p-uno, footer .p-uno, main .p-uno, .fondo .p-uno, .imagenes .p-uno, .fondo-servicios .p-uno, .copy .p-uno {
     grid-area: p-uno;
     margin-right: 1.5rem;
     margin-bottom: 0;
   }
-  header .p-dos, footer .p-dos, .fondo .p-dos, .fondo-servicios .p-dos {
+  header .p-dos, footer .p-dos, main .p-dos, .fondo .p-dos, .imagenes .p-dos, .fondo-servicios .p-dos, .copy .p-dos {
     grid-area: p-dos;
     margin-right: 1.5rem;
     margin-bottom: 0;
   }
-  header .formulario-flex, footer .formulario-flex, .fondo .formulario-flex, .fondo-servicios .formulario-flex {
+  header .formulario-flex, footer .formulario-flex, main .formulario-flex, .fondo .formulario-flex, .imagenes .formulario-flex, .fondo-servicios .formulario-flex, .copy .formulario-flex {
     display: grid;
     height: 50vh;
   }
-  header footer, footer footer, .fondo footer, .fondo-servicios footer {
-    height: 105vh;
+  header .footer-consulta, footer .footer-consulta, main .footer-consulta, .fondo .footer-consulta, .imagenes .footer-consulta, .fondo-servicios .footer-consulta, .copy .footer-consulta {
+    font-size: 24px;
   }
-  header .container-form, footer .container-form, .fondo .container-form, .fondo-servicios .container-form {
+  header footer, footer footer, main footer, .fondo footer, .imagenes footer, .fondo-servicios footer, .copy footer {
+    height: 125vh;
+  }
+  header .container-form, footer .container-form, main .container-form, .fondo .container-form, .imagenes .container-form, .fondo-servicios .container-form, .copy .container-form {
     margin-top: 25px;
   }
-  header .enviar, footer .enviar, .fondo .enviar, .fondo-servicios .enviar {
+  header .enviar, footer .enviar, main .enviar, .fondo .enviar, .imagenes .enviar, .fondo-servicios .enviar, .copy .enviar {
     width: 300px;
     height: 55px;
   }
-  header .form, footer .form, .fondo .form, .fondo-servicios .form {
+  header .form, footer .form, main .form, .fondo .form, .imagenes .form, .fondo-servicios .form, .copy .form {
     width: 300px;
     height: 55px;
   }
-  header iframe, footer iframe, .fondo iframe, .fondo-servicios iframe {
+  header iframe, footer iframe, main iframe, .fondo iframe, .imagenes iframe, .fondo-servicios iframe, .copy iframe {
     width: 300px;
     height: 310px;
   }
+}
+
+.whatsapp img {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .whatsapp img {
+    display: block;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+  }
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: rgb(59, 59, 59);
+  height: 6.6vh;
 }
 
 /*# sourceMappingURL=estilo.css.map */

@@ -3,14 +3,13 @@
 @import "../base/mixins";
 
 .fondo{
-    background-image: url('../../multimedia/imagenes/llaves.jpg');
+    background-image: url('../../multimedia/imagenes/negro.jpg');
     height: 65vh;
     @include fond(no-repeat,cover,0);
 
 
     .grid-container{
         @include main(grid, 96%, 20rem,0,0,0,0);
-        gap: 8px;
         margin-top: 8rem;
         grid-template-areas: 
         'grid-img grid-p';
@@ -18,12 +17,10 @@
     }
     .grid-img{
         grid-area: grid-img;
-        
     }
     
     .grid-p{
         grid-area: grid-p;
-        grid-column: 2/3;
         display: flex;
         align-items: center;
     }
@@ -48,7 +45,7 @@
         
     }
     p{
-        font-size: 15px;
+        font-size: 20px;
         color: $color-secundario;
         margin-left: 30px;
     }
