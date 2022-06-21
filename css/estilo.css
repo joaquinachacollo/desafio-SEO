@@ -135,9 +135,11 @@ header .mi-bg {
 }
 .fondo-servicios .p-uno {
   grid-area: p-uno;
+  font-size: 20px;
 }
 .fondo-servicios .p-dos {
   grid-area: p-dos;
+  font-size: 20px;
 }
 .fondo-servicios .flex {
   display: flex;
@@ -320,7 +322,7 @@ footer .enviar {
 
 @media screen and (min-width: 360px) and (max-width: 767px) {
   header .copyright, footer .copyright, main .copyright, .fondo .copyright, .imagenes .copyright, .fondo-servicios .copyright, .copy .copyright {
-    margin-top: 15rem;
+    margin-top: 24rem;
     height: 7vh;
   }
   header .copyright p, footer .copyright p, main .copyright p, .fondo .copyright p, .imagenes .copyright p, .fondo-servicios .copyright p, .copy .copyright p {
