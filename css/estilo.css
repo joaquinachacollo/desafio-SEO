@@ -155,7 +155,7 @@ header .mi-bg {
 
 footer {
   background-color: rgb(22, 21, 21);
-  height: 70vh;
+  height: 50vh;
 }
 footer .info {
   font-size: 40px;
@@ -211,214 +211,193 @@ footer .enviar {
 }
 
 @media screen and (min-width: 993px) and (max-width: 1200px) {
-  header .img-nosotros, footer .img-nosotros, .fondo .img-nosotros, .imagenes .img-nosotros, .fondo-servicios .img-nosotros, .copy .img-nosotros {
+  header .img-nosotros, footer .img-nosotros, .fondo .img-nosotros, .imagenes .img-nosotros, .fondo-servicios .img-nosotros {
     width: 22rem;
   }
-  header .nosotros, footer .nosotros, .fondo .nosotros, .imagenes .nosotros, .fondo-servicios .nosotros, .copy .nosotros {
+  header .nosotros, footer .nosotros, .fondo .nosotros, .imagenes .nosotros, .fondo-servicios .nosotros {
     font-size: 30px;
   }
-  header p, footer p, .fondo p, .imagenes p, .fondo-servicios p, .copy p {
+  header p, footer p, .fondo p, .imagenes p, .fondo-servicios p {
     font-size: 14px;
     margin-bottom: 55px;
   }
-  header .servicios, footer .servicios, .fondo .servicios, .imagenes .servicios, .fondo-servicios .servicios, .copy .servicios {
+  header .servicios, footer .servicios, .fondo .servicios, .imagenes .servicios, .fondo-servicios .servicios {
     font-size: 30px;
   }
-  header .img-uno, header .img-dos, footer .img-uno, footer .img-dos, .fondo .img-uno, .fondo .img-dos, .imagenes .img-uno, .imagenes .img-dos, .fondo-servicios .img-uno, .fondo-servicios .img-dos, .copy .img-uno, .copy .img-dos {
+  header .img-uno, header .img-dos, footer .img-uno, footer .img-dos, .fondo .img-uno, .fondo .img-dos, .imagenes .img-uno, .imagenes .img-dos, .fondo-servicios .img-uno, .fondo-servicios .img-dos {
     width: 22rem;
   }
-  header .p-uno, header .p-dos, footer .p-uno, footer .p-dos, .fondo .p-uno, .fondo .p-dos, .imagenes .p-uno, .imagenes .p-dos, .fondo-servicios .p-uno, .fondo-servicios .p-dos, .copy .p-uno, .copy .p-dos {
+  header .p-uno, header .p-dos, footer .p-uno, footer .p-dos, .fondo .p-uno, .fondo .p-dos, .imagenes .p-uno, .imagenes .p-dos, .fondo-servicios .p-uno, .fondo-servicios .p-dos {
     font-size: 14px;
   }
-  header video, footer video, .fondo video, .imagenes video, .fondo-servicios video, .copy video {
+  header video, footer video, .fondo video, .imagenes video, .fondo-servicios video {
     width: 52rem;
     margin-bottom: 1rem;
   }
-  header iframe, footer iframe, .fondo iframe, .imagenes iframe, .fondo-servicios iframe, .copy iframe {
+  header iframe, footer iframe, .fondo iframe, .imagenes iframe, .fondo-servicios iframe {
     width: 400px;
     height: 380px;
   }
-  header .enviar, footer .enviar, .fondo .enviar, .imagenes .enviar, .fondo-servicios .enviar, .copy .enviar {
+  header .enviar, footer .enviar, .fondo .enviar, .imagenes .enviar, .fondo-servicios .enviar {
     width: 400px;
     height: 55px;
   }
-  header .form, footer .form, .fondo .form, .imagenes .form, .fondo-servicios .form, .copy .form {
+  header .form, footer .form, .fondo .form, .imagenes .form, .fondo-servicios .form {
     width: 400px;
     height: 55px;
   }
-  header .altura, footer .altura, .fondo .altura, .imagenes .altura, .fondo-servicios .altura, .copy .altura {
+  header .altura, footer .altura, .fondo .altura, .imagenes .altura, .fondo-servicios .altura {
     height: auto !important;
-  }
-  header .copyright, footer .copyright, .fondo .copyright, .imagenes .copyright, .fondo-servicios .copyright, .copy .copyright {
-    margin-top: 26px;
-    height: 7vh;
-  }
-  header .copyright p, footer .copyright p, .fondo .copyright p, .imagenes .copyright p, .fondo-servicios .copyright p, .copy .copyright p {
-    margin: auto;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-  header .altura, footer .altura, .fondo .altura, .imagenes .altura, .fondo-servicios .altura, .copy .altura {
+  header .altura, footer .altura, .fondo .altura, .imagenes .altura, .fondo-servicios .altura {
     height: auto !important;
   }
-  header .img-nav, footer .img-nav, .fondo .img-nav, .imagenes .img-nav, .fondo-servicios .img-nav, .copy .img-nav {
+  header .img-nav, footer .img-nav, .fondo .img-nav, .imagenes .img-nav, .fondo-servicios .img-nav {
     width: 150px;
     height: 150px;
     margin-top: 0.5rem;
   }
-  header ul li, footer ul li, .fondo ul li, .imagenes ul li, .fondo-servicios ul li, .copy ul li {
+  header ul li, footer ul li, .fondo ul li, .imagenes ul li, .fondo-servicios ul li {
     padding: 0rem 1.7rem;
   }
-  header .img-nosotros, footer .img-nosotros, .fondo .img-nosotros, .imagenes .img-nosotros, .fondo-servicios .img-nosotros, .copy .img-nosotros {
+  header .img-nosotros, footer .img-nosotros, .fondo .img-nosotros, .imagenes .img-nosotros, .fondo-servicios .img-nosotros {
     width: 20rem;
   }
-  header .nosotros, footer .nosotros, .fondo .nosotros, .imagenes .nosotros, .fondo-servicios .nosotros, .copy .nosotros {
+  header .nosotros, footer .nosotros, .fondo .nosotros, .imagenes .nosotros, .fondo-servicios .nosotros {
     font-size: 29px;
   }
-  header p, footer p, .fondo p, .imagenes p, .fondo-servicios p, .copy p {
+  header p, footer p, .fondo p, .imagenes p, .fondo-servicios p {
     font-size: 13px;
     margin-bottom: 90px;
   }
-  header .servicios, footer .servicios, .fondo .servicios, .imagenes .servicios, .fondo-servicios .servicios, .copy .servicios {
+  header .servicios, footer .servicios, .fondo .servicios, .imagenes .servicios, .fondo-servicios .servicios {
     font-size: 29px;
   }
-  header .img-uno, header .img-dos, footer .img-uno, footer .img-dos, .fondo .img-uno, .fondo .img-dos, .imagenes .img-uno, .imagenes .img-dos, .fondo-servicios .img-uno, .fondo-servicios .img-dos, .copy .img-uno, .copy .img-dos {
+  header .img-uno, header .img-dos, footer .img-uno, footer .img-dos, .fondo .img-uno, .fondo .img-dos, .imagenes .img-uno, .imagenes .img-dos, .fondo-servicios .img-uno, .fondo-servicios .img-dos {
     width: 20rem;
   }
-  header .p-uno, header .p-dos, footer .p-uno, footer .p-dos, .fondo .p-uno, .fondo .p-dos, .imagenes .p-uno, .imagenes .p-dos, .fondo-servicios .p-uno, .fondo-servicios .p-dos, .copy .p-uno, .copy .p-dos {
+  header .p-uno, header .p-dos, footer .p-uno, footer .p-dos, .fondo .p-uno, .fondo .p-dos, .imagenes .p-uno, .imagenes .p-dos, .fondo-servicios .p-uno, .fondo-servicios .p-dos {
     font-size: 13px;
   }
-  header video, footer video, .fondo video, .imagenes video, .fondo-servicios video, .copy video {
+  header video, footer video, .fondo video, .imagenes video, .fondo-servicios video {
     width: 45rem;
     margin-bottom: 1rem;
   }
-  header iframe, footer iframe, .fondo iframe, .imagenes iframe, .fondo-servicios iframe, .copy iframe {
+  header iframe, footer iframe, .fondo iframe, .imagenes iframe, .fondo-servicios iframe {
     width: 300px;
     height: 310px;
   }
-  header .ubicacion, footer .ubicacion, .fondo .ubicacion, .imagenes .ubicacion, .fondo-servicios .ubicacion, .copy .ubicacion {
+  header .ubicacion, footer .ubicacion, .fondo .ubicacion, .imagenes .ubicacion, .fondo-servicios .ubicacion {
     margin-top: 4rem;
   }
-  header .container-form, footer .container-form, .fondo .container-form, .imagenes .container-form, .fondo-servicios .container-form, .copy .container-form {
+  header .container-form, footer .container-form, .fondo .container-form, .imagenes .container-form, .fondo-servicios .container-form {
     margin-top: 2rem;
   }
-  header .enviar, footer .enviar, .fondo .enviar, .imagenes .enviar, .fondo-servicios .enviar, .copy .enviar {
+  header .enviar, footer .enviar, .fondo .enviar, .imagenes .enviar, .fondo-servicios .enviar {
     width: 320px;
     height: 55px;
   }
-  header .form, footer .form, .fondo .form, .imagenes .form, .fondo-servicios .form, .copy .form {
+  header .form, footer .form, .fondo .form, .imagenes .form, .fondo-servicios .form {
     width: 320px;
     height: 55px;
-  }
-  header .copyright, footer .copyright, .fondo .copyright, .imagenes .copyright, .fondo-servicios .copyright, .copy .copyright {
-    margin-top: 26px;
-    height: 7vh;
-  }
-  header .copyright p, footer .copyright p, .fondo .copyright p, .imagenes .copyright p, .fondo-servicios .copyright p, .copy .copyright p {
-    margin: auto;
   }
 }
 
 @media screen and (min-width: 360px) and (max-width: 767px) {
-  header .copyright, footer .copyright, main .copyright, .fondo .copyright, .imagenes .copyright, .fondo-servicios .copyright, .copy .copyright {
-    margin-top: 24rem;
-    height: 7vh;
+  header .derechos, footer .derechos, main .derechos, .fondo .derechos, .imagenes .derechos, .fondo-servicios .derechos {
+    margin-top: 32vh;
   }
-  header .copyright p, footer .copyright p, main .copyright p, .fondo .copyright p, .imagenes .copyright p, .fondo-servicios .copyright p, .copy .copyright p {
-    margin: auto;
-  }
-  header .altura, footer .altura, main .altura, .fondo .altura, .imagenes .altura, .fondo-servicios .altura, .copy .altura {
+  header .altura, footer .altura, main .altura, .fondo .altura, .imagenes .altura, .fondo-servicios .altura {
     height: auto !important;
   }
-  header .img-nav, footer .img-nav, main .img-nav, .fondo .img-nav, .imagenes .img-nav, .fondo-servicios .img-nav, .copy .img-nav {
+  header .img-nav, footer .img-nav, main .img-nav, .fondo .img-nav, .imagenes .img-nav, .fondo-servicios .img-nav {
     width: 100px;
     height: 100px;
     margin-top: 0.5rem;
   }
-  header .info, footer .info, main .info, .fondo .info, .imagenes .info, .fondo-servicios .info, .copy .info {
+  header .info, footer .info, main .info, .fondo .info, .imagenes .info, .fondo-servicios .info {
     font-size: 30px;
   }
-  header .nosotros, footer .nosotros, main .nosotros, .fondo .nosotros, .imagenes .nosotros, .fondo-servicios .nosotros, .copy .nosotros {
+  header .nosotros, footer .nosotros, main .nosotros, .fondo .nosotros, .imagenes .nosotros, .fondo-servicios .nosotros {
     font-size: 24px;
     padding-top: 2px;
   }
-  header .img-nosotros, footer .img-nosotros, main .img-nosotros, .fondo .img-nosotros, .imagenes .img-nosotros, .fondo-servicios .img-nosotros, .copy .img-nosotros {
+  header .img-nosotros, footer .img-nosotros, main .img-nosotros, .fondo .img-nosotros, .imagenes .img-nosotros, .fondo-servicios .img-nosotros {
     display: none;
   }
-  header .grid-container, footer .grid-container, main .grid-container, .fondo .grid-container, .imagenes .grid-container, .fondo-servicios .grid-container, .copy .grid-container {
+  header .grid-container, footer .grid-container, main .grid-container, .fondo .grid-container, .imagenes .grid-container, .fondo-servicios .grid-container {
     margin-top: 1.5rem;
   }
-  header .grid-p, footer .grid-p, main .grid-p, .fondo .grid-p, .imagenes .grid-p, .fondo-servicios .grid-p, .copy .grid-p {
+  header .grid-p, footer .grid-p, main .grid-p, .fondo .grid-p, .imagenes .grid-p, .fondo-servicios .grid-p {
     font-size: 14px;
   }
-  header .fondo, footer .fondo, main .fondo, .fondo .fondo, .imagenes .fondo, .fondo-servicios .fondo, .copy .fondo {
+  header .fondo, footer .fondo, main .fondo, .fondo .fondo, .imagenes .fondo, .fondo-servicios .fondo {
     height: auto;
   }
-  header .servicios, footer .servicios, main .servicios, .fondo .servicios, .imagenes .servicios, .fondo-servicios .servicios, .copy .servicios {
+  header .servicios, footer .servicios, main .servicios, .fondo .servicios, .imagenes .servicios, .fondo-servicios .servicios {
     font-size: 24px;
     padding-top: 20px;
   }
-  header .grid-servicios, footer .grid-servicios, main .grid-servicios, .fondo .grid-servicios, .imagenes .grid-servicios, .fondo-servicios .grid-servicios, .copy .grid-servicios {
+  header .grid-servicios, footer .grid-servicios, main .grid-servicios, .fondo .grid-servicios, .imagenes .grid-servicios, .fondo-servicios .grid-servicios {
     height: 75rem;
     grid-template-columns: 300px;
     justify-content: center;
     text-align: center;
     grid-template-areas: "img-uno" "p-uno" "img-dos" "p-dos";
   }
-  header .img-uno, header .img-dos, footer .img-uno, footer .img-dos, main .img-uno, main .img-dos, .fondo .img-uno, .fondo .img-dos, .imagenes .img-uno, .imagenes .img-dos, .fondo-servicios .img-uno, .fondo-servicios .img-dos, .copy .img-uno, .copy .img-dos {
+  header .img-uno, header .img-dos, footer .img-uno, footer .img-dos, main .img-uno, main .img-dos, .fondo .img-uno, .fondo .img-dos, .imagenes .img-uno, .imagenes .img-dos, .fondo-servicios .img-uno, .fondo-servicios .img-dos {
     height: 14rem;
     width: 16rem;
     margin-top: 1rem;
   }
-  header .p-uno, header .p-dos, footer .p-uno, footer .p-dos, main .p-uno, main .p-dos, .fondo .p-uno, .fondo .p-dos, .imagenes .p-uno, .imagenes .p-dos, .fondo-servicios .p-uno, .fondo-servicios .p-dos, .copy .p-uno, .copy .p-dos {
+  header .p-uno, header .p-dos, footer .p-uno, footer .p-dos, main .p-uno, main .p-dos, .fondo .p-uno, .fondo .p-dos, .imagenes .p-uno, .imagenes .p-dos, .fondo-servicios .p-uno, .fondo-servicios .p-dos {
     font-size: 14px;
     margin-left: 14px;
   }
-  header video, footer video, main video, .fondo video, .imagenes video, .fondo-servicios video, .copy video {
+  header video, footer video, main video, .fondo video, .imagenes video, .fondo-servicios video {
     display: none;
   }
-  header .fondo-servicios, footer .fondo-servicios, main .fondo-servicios, .fondo .fondo-servicios, .imagenes .fondo-servicios, .fondo-servicios .fondo-servicios, .copy .fondo-servicios {
+  header .fondo-servicios, footer .fondo-servicios, main .fondo-servicios, .fondo .fondo-servicios, .imagenes .fondo-servicios, .fondo-servicios .fondo-servicios {
     height: 140vh;
   }
-  header .img-uno, footer .img-uno, main .img-uno, .fondo .img-uno, .imagenes .img-uno, .fondo-servicios .img-uno, .copy .img-uno {
+  header .img-uno, footer .img-uno, main .img-uno, .fondo .img-uno, .imagenes .img-uno, .fondo-servicios .img-uno {
     grid-area: img-uno;
   }
-  header .img-dos, footer .img-dos, main .img-dos, .fondo .img-dos, .imagenes .img-dos, .fondo-servicios .img-dos, .copy .img-dos {
+  header .img-dos, footer .img-dos, main .img-dos, .fondo .img-dos, .imagenes .img-dos, .fondo-servicios .img-dos {
     grid-area: img-dos;
   }
-  header .p-uno, footer .p-uno, main .p-uno, .fondo .p-uno, .imagenes .p-uno, .fondo-servicios .p-uno, .copy .p-uno {
+  header .p-uno, footer .p-uno, main .p-uno, .fondo .p-uno, .imagenes .p-uno, .fondo-servicios .p-uno {
     grid-area: p-uno;
     margin-right: 1.5rem;
     margin-bottom: 0;
   }
-  header .p-dos, footer .p-dos, main .p-dos, .fondo .p-dos, .imagenes .p-dos, .fondo-servicios .p-dos, .copy .p-dos {
+  header .p-dos, footer .p-dos, main .p-dos, .fondo .p-dos, .imagenes .p-dos, .fondo-servicios .p-dos {
     grid-area: p-dos;
     margin-right: 1.5rem;
     margin-bottom: 0;
   }
-  header .formulario-flex, footer .formulario-flex, main .formulario-flex, .fondo .formulario-flex, .imagenes .formulario-flex, .fondo-servicios .formulario-flex, .copy .formulario-flex {
+  header .formulario-flex, footer .formulario-flex, main .formulario-flex, .fondo .formulario-flex, .imagenes .formulario-flex, .fondo-servicios .formulario-flex {
     display: grid;
     height: 50vh;
   }
-  header .footer-consulta, footer .footer-consulta, main .footer-consulta, .fondo .footer-consulta, .imagenes .footer-consulta, .fondo-servicios .footer-consulta, .copy .footer-consulta {
+  header .footer-consulta, footer .footer-consulta, main .footer-consulta, .fondo .footer-consulta, .imagenes .footer-consulta, .fondo-servicios .footer-consulta {
     font-size: 24px;
   }
-  header footer, footer footer, main footer, .fondo footer, .imagenes footer, .fondo-servicios footer, .copy footer {
-    height: 125vh;
-  }
-  header .container-form, footer .container-form, main .container-form, .fondo .container-form, .imagenes .container-form, .fondo-servicios .container-form, .copy .container-form {
+  header .container-form, footer .container-form, main .container-form, .fondo .container-form, .imagenes .container-form, .fondo-servicios .container-form {
     margin-top: 25px;
   }
-  header .enviar, footer .enviar, main .enviar, .fondo .enviar, .imagenes .enviar, .fondo-servicios .enviar, .copy .enviar {
+  header .enviar, footer .enviar, main .enviar, .fondo .enviar, .imagenes .enviar, .fondo-servicios .enviar {
     width: 300px;
     height: 55px;
   }
-  header .form, footer .form, main .form, .fondo .form, .imagenes .form, .fondo-servicios .form, .copy .form {
+  header .form, footer .form, main .form, .fondo .form, .imagenes .form, .fondo-servicios .form {
     width: 300px;
     height: 55px;
   }
-  header iframe, footer iframe, main iframe, .fondo iframe, .imagenes iframe, .fondo-servicios iframe, .copy iframe {
+  header iframe, footer iframe, main iframe, .fondo iframe, .imagenes iframe, .fondo-servicios iframe {
     width: 300px;
     height: 310px;
   }
@@ -439,13 +418,16 @@ footer .enviar {
     border-radius: 50%;
   }
 }
-.copyright {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.derechos {
+  width: 100%;
+  height: 5%;
+  background-color: rgb(51, 51, 51);
+}
+
+.derechos h2 {
   color: #fff;
-  background-color: rgb(59, 59, 59);
-  height: 6.6vh;
+  text-align: center;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=estilo.css.map */

@@ -1,5 +1,5 @@
 
-header, footer, .fondo, .imagenes, .fondo-servicios, .copy {
+header, footer, .fondo, .imagenes, .fondo-servicios{
     @media screen and (min-width: 993px) and (max-width: 1200px) {
     
         
@@ -54,19 +54,11 @@ header, footer, .fondo, .imagenes, .fondo-servicios, .copy {
             height: auto !important;
         }
 
-        .copyright{
-            margin-top: 26px;
-            height: 7vh;
-        }
-        .copyright p{
-            margin: auto;
-        }
-        
     
     }
 }
 
-header, footer, .fondo, .imagenes, .fondo-servicios, .copy{
+header, footer, .fondo, .imagenes, .fondo-servicios{
     @media screen and (min-width: 768px) and (max-width: 992px) {
         
         .altura{
@@ -137,26 +129,14 @@ header, footer, .fondo, .imagenes, .fondo-servicios, .copy{
             width: 320px;
             height: 55px;
         }
-    
-        .copyright{
-            margin-top: 26px;
-            height: 7vh;
-        }
-        .copyright p{
-            margin: auto;
-        }
     }
 }
 
-header, footer, main,.fondo, .imagenes, .fondo-servicios, .copy{
+header, footer, main,.fondo, .imagenes, .fondo-servicios{
     @media screen and (min-width: 360px) and (max-width: 767px) {
     
-        .copyright{
-            margin-top: 24rem;
-            height: 7vh;
-        }
-        .copyright p{
-            margin: auto;
+        .derechos{
+            margin-top: 32vh;
         }
 
         .altura{
@@ -258,9 +238,6 @@ header, footer, main,.fondo, .imagenes, .fondo-servicios, .copy{
             font-size: 24px;
         }
 
-        footer{
-            height: 125vh;
-        }
         
         .container-form{
             margin-top: 25px;
