@@ -2,7 +2,7 @@
 header, footer, .fondo, .imagenes, .fondo-servicios{
     @media screen and (min-width: 993px) and (max-width: 1200px) {
     
-        
+        //------- nosotros -------//
         .img-nosotros{
             width: 22rem;
         }
@@ -11,12 +11,12 @@ header, footer, .fondo, .imagenes, .fondo-servicios{
             font-size: 30px;
         }
     
-        
-        p{
+        .grid-p{
             font-size: 14px;
             margin-bottom: 55px;
         }
     
+        //------- servicios -------//
         .servicios{
             font-size: 30px;
         }
@@ -34,7 +34,8 @@ header, footer, .fondo, .imagenes, .fondo-servicios{
             margin-bottom: 1rem;
         }
         
-        
+        //------- footer -------//
+
         iframe{
             width: 400px; 
             height: 380px;
@@ -50,21 +51,18 @@ header, footer, .fondo, .imagenes, .fondo-servicios{
             height: 55px;
         }
 
-        .altura{
-            height: auto !important;
-        }
-
-    
     }
 }
 
 header, footer, .fondo, .imagenes, .fondo-servicios{
     @media screen and (min-width: 768px) and (max-width: 992px) {
         
+        //------- carousel -------//
         .altura{
             height: auto !important;
         }
 
+        //------- header -------//
         .img-nav{
             width: 150px;
             height: 150px;
@@ -75,7 +73,7 @@ header, footer, .fondo, .imagenes, .fondo-servicios{
             padding: 0rem 1.7rem;
         }
         
-        
+        //------- nosotros -------//
         .img-nosotros{
             width: 20rem;
         }
@@ -85,11 +83,12 @@ header, footer, .fondo, .imagenes, .fondo-servicios{
         }
     
         
-        p{
+        .grid-p{
             font-size: 13px;
             margin-bottom: 90px;
         }
     
+        //------- servicios -------//
         .servicios{
             font-size: 29px;
         }
@@ -107,7 +106,7 @@ header, footer, .fondo, .imagenes, .fondo-servicios{
             margin-bottom: 1rem;
         }
     
-       
+        //------- footer -------//
         iframe{
             width: 300px; 
             height: 310px;
@@ -135,24 +134,34 @@ header, footer, .fondo, .imagenes, .fondo-servicios{
 header, footer, main,.fondo, .imagenes, .fondo-servicios{
     @media screen and (min-width: 360px) and (max-width: 767px) {
     
+        //------- copy -------//
         .derechos{
-            margin-top: 32vh;
+            margin-top: 29rem;
         }
 
+        .derechos h2{
+            font-size: 14px;
+            padding-top: 4px;
+        }
+
+        //------- carousel -------//
         .altura{
             height: auto !important;
         }
 
+        //------- header -------//
         .img-nav{
             width: 100px;
             height: 100px;
             margin-top: 0.5rem;
         }
     
+        //------- footer -------//
         .info{
             font-size: 30px;
         }
     
+        //------- nosotros -------//
         .nosotros{
             font-size: 24px;
             padding-top: 2px;
@@ -174,6 +183,7 @@ header, footer, main,.fondo, .imagenes, .fondo-servicios{
             height: auto;
         }
 
+        //------- servicios -------//
         .servicios{
             font-size: 24px;
             padding-top: 20px;
@@ -203,6 +213,7 @@ header, footer, main,.fondo, .imagenes, .fondo-servicios{
             margin-left: 14px;
         }
     
+        //------- footer -------//
         video{
             display: none;
         }
@@ -228,7 +239,7 @@ header, footer, main,.fondo, .imagenes, .fondo-servicios{
             margin-bottom: 0;
         }
     
-         
+        //------- footer -------//
         .formulario-flex{
             display: grid;
             height: 50vh;
@@ -238,7 +249,6 @@ header, footer, main,.fondo, .imagenes, .fondo-servicios{
             font-size: 24px;
         }
 
-        
         .container-form{
             margin-top: 25px;
         }
