@@ -3,7 +3,8 @@
     @import "../base/mixins";
 
     .fondo-servicios{
-        background-image: url('../../multimedia/imagenes/fondo-servicios.jpg');
+        background-image: linear-gradient(rgba(5,7,12,0.75), rgba(32, 32, 32, 0.75)),
+        url('../../multimedia/imagenes/fondo-servicios.jpg');
         @include fond(no-repeat, cover, center center);
 
         .servicios{
