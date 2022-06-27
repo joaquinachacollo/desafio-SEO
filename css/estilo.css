@@ -305,7 +305,7 @@ footer .enviar {
 
 @media screen and (min-width: 360px) and (max-width: 767px) {
   header .derechos, footer .derechos, main .derechos, .fondo .derechos, .imagenes .derechos, .fondo-servicios .derechos {
-    margin-top: 20rem;
+    margin-top: 25rem;
   }
   header .derechos h2, footer .derechos h2, main .derechos h2, .fondo .derechos h2, .imagenes .derechos h2, .fondo-servicios .derechos h2 {
     font-size: 14px;
